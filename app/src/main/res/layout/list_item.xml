@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="@color/tan_background"
+    android:minHeight="80dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_width="88dp"
+        android:layout_height="88dp" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/direction_button"
+        android:layout_width="44dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_direction"/>
+
+    <ImageView
+        android:id="@+id/info_button"
+        android:layout_width="44dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_info"/>
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="onOpenWebBrowser"
+        android:text="Open Web Browser" />-->
+
+</LinearLayout>

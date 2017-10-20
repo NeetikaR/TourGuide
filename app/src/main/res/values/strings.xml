@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hyderabad Tourism</string>
+    <string name="points_of_interest">Points Of Interest</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="famous_food">Famous Food</string>
+    <string name="famous_for">Famous for</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="malls">Malls</string>
+    <string name="art_galleries">Art Gallery</string>
+
+    <string name="historical_monuments">Historical Monuments</string>
+    <string name="palaces">Palaces</string>
+    <string name="religious_places">Religious Places</string>
+    <string name="museums_planetarium">Museums &amp; Planetarium</string>
+    <string name="hyderabad_lakes">Lakes</string>
+    <string name="parks_gardens">Parks &amp; Gardens</string>
+    <string name="wildlife">WildLife</string>
+    <string name="others">Others</string>
+
+</resources>
